@@ -16,16 +16,16 @@ class ApiUser {
 // api result example:
 // [
 //   {
-//     "uuid": "RDTfENkxrhRSTnXHlunvgtVHo",
-//     "name": "John"
+//     "uuid": "96eb8802-998d-4802-a221-2ee9bc1b6497",
+//     "name": "Mrs. Mikayla Jast"
 //   },
 //   {
-//     "uuid": "rNyxqHmWysncXDABUrnhxQtOt",
-//     "name": "Anna"
+//     "uuid": "3e77aa0a-1cde-4f2b-a2ea-cb9687a1dc80",
+//     "name": "Prof. Rita Maggio"
 //   },
 //   {
-//     "uuid": "SpiiGltrDieOsELTYwIPhbFej",
-//     "name": "Jane"
+//     "uuid": "9ddee826-f95d-4231-bec6-487fdbf37cce",
+//     "name": "Princess Anika Parker"
 //   }
 // ]
 Future<List<ApiUser>> fetchAllDataBase() async {
